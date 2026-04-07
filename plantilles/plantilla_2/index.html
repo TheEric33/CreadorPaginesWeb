@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página estilo 2</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div id="form">
+
+        <label>Título de la página: </label>
+        <input type="text" id="tpagina" />
+        <br><br>
+        <label>Título: </label>
+        <input type="text" id="ftitol" />
+        <br><br>
+        <label>Subtítulo 1: </label>
+        <input type="text" id="fsubtitol1" />
+        <br><br>
+        <label>Párrafo 1: </label>
+        <textarea id="fparagraf1" rows="4" cols="20"></textarea> 
+        <br><br>
+        <label>Párrafo 2: </label>
+        <textarea id="fparagraf2" rows="4" cols="20"></textarea>
+        <br><br>
+        <label>Subtítulo 2: </label>
+        <input type="text" id="fsubtitol2" />
+        <br><br>
+        <label>Párrafo 3: </label>
+        <textarea id="fparagraf3" rows="4" cols="20"></textarea>
+        <br><br>
+        <input type="submit" value="Cambiar" onclick="changeText()" />
+        <input type="submit" value="Guardar" onclick="saveFile()" />
+
+    </div>
+    <div id="cos">
+
+        <h1 id="titol">Título</h1>
+        <h2 id="subtitol1">Subtítulo 1</h2>
+        <p id="paragraf1">Párrafo 1</p>
+        <p id="paragraf2">Párrafo 2</p>
+        <h2 id="subtitol2">Subtítulo 2</h2>
+        <p id="paragraf3">Párrafo 3</p>
+
+    </div>
+
+    <script src="./script/index.js"></script>
+</body>
+</html>

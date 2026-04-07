@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página estilo 1</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <div id="form">
+
+        <label>Título de la página: </label>
+        <input type="text" id="tpagina"/>
+        <br><br>
+        <label>Titular: </label>
+        <input type="text" id="ftitol" />
+        <label>Subtítulo: </label>
+        <input type="text" id="fsubtitol" />
+        <br><br>
+        <label>Semitítulo 1: </label>
+        <input type="text" id="fsemi1">
+        <label>Párrafo 1: </label>
+        <textarea rows="4" cols="20" id="fparagraf1"></textarea>
+        <br><br>
+        <label>Semitítulo 2: </label>
+        <input type="text" id="fsemi2">
+        <label>Párrafo 2: </label>
+        <textarea rows="4" cols="20" id="fparagraf2"></textarea>
+        <br><br>
+        <label>Semitítulo 3: </label>
+        <input type="text" id="fsemi3">
+        <label>Párrafo 3: </label>
+        <textarea rows="4" cols="20" id="fparagraf3"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Cambiar" onclick="changeText()" />
+        <input type="submit" value="Guardar" onclick="saveFile()" />
+
+    </div>
+    <div id="cos">
+
+        <h1 id="titol">Titular</h1>
+        
+        <h2 id="subtitol">subtítulo</h2>
+        
+
+        <section id="text">
+
+            <section id="p1">
+
+                <h3 id="semi1">Semitítulo 1</h3>
+                <p id="paragraf1">Párrafo 1</p>
+
+            </section>
+            <section id="p2">
+
+                <h3 id="semi2">Semitítulo 2</h3>
+                <p id="paragraf2">Párrafo 2</p>
+
+            </section>
+            <section id="p3">
+
+                <h3 id="semi3">Semitítulo 3</h3>
+                <p id="paragraf3">Párrafo 3</p>
+
+            </section>
+
+        </section>
+        
+
+    </div>
+
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
